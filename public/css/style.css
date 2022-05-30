@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+:root {
+    --top-color: rgb(72, 59, 117);
+    --bottom-color: rgb(19, 11, 51);
+}
+
+* {
+    margin: 0;
+    font-family: Jura, sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(225deg, var(--top-color) 20%, var(--bottom-color) 100%);
+}
+
+header {
+    display: flex;
+    height: 8%;
+    width: 100vw;
+}
+
+header p {
+    width: 100%;
+    height: 100%;
+    color:  white;
+    font-size: 40px;
+    text-align: center;
+}
+
+main {
+    min-height: 92%;
+    width: 100vw;
+    color: white;
+}
+
+main p {
+    margin-right: 3vw;
+    margin-left: 3vw;
+    word-wrap: break-word;
+}
+
+footer {
+    width: 100vw;
+    margin-top: auto;
+}
+
+#nav-menu {
+    border-bottom: 0;
+}
+
+#nav-menu i {
+    font-size: 1.5em;
+}
+
+#nav-menu li {
+    width: 25%;
+    align-items: center;
+}
+
+#nav-menu li button {
+    color:  white;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 0px;
+}
+
+#nav-menu li button.active {
+    color: var(--bottom-color);
+    background-color: white;
+    padding-bottom: 5px;
+}

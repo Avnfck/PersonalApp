@@ -1,0 +1,24 @@
+<footer>
+    <ul class="nav nav-tabs" id="nav-menu" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a href="/">
+                <button  class="nav-link {{#if active.profile}}active{{/if}}" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="true"><i class="bi bi-person-fill"></i><br>Profile</button>
+            </a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a href="/exp">
+                <button class="nav-link {{#if active.exp}}active{{/if}}" id="exp-tab" data-bs-toggle="tab" data-bs-target="#exp-tab-pane" type="button" role="tab" aria-controls="exp-tab-pane" aria-selected="false"><i class="bi bi-bookmark-star-fill"></i><br>Experience</button>
+            </a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a href="/stack">
+                <button class="nav-link {{#if active.stack}}active{{/if}}" id="stack-tab" data-bs-toggle="tab" data-bs-target="#stack-tab-pane" type="button" role="tab" aria-controls="stack-tab-pane" aria-selected="false"><i class="bi bi-stack"></i><br>Stack</button>
+            </a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a href="/contact">
+                <button class="nav-link {{#if active.contact}}active{{/if}}" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"><i class="bi bi-at"></i><br>Contact</button>
+            </a>
+        </li>
+        </ul>
+</footer>
