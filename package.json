@@ -5,6 +5,7 @@
   "main": "",
   "type": "module",
   "scripts": {
+    "start": "node app.js -e js,hbs",
     "dev": "nodemon app.js -e js,hbs"
   },
   "author": "",
