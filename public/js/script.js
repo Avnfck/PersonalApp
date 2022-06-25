@@ -140,7 +140,7 @@ if (window.location.href.match(/\/stack$/)) {
             document.querySelector(`.accordion-item:nth-child(${idx+1}) .accordion-collapse.collapse`).append(accBodyDiv)
 
             document.querySelector(`#heading${idx+1} > button`).addEventListener('click', () => {
-                if (document.querySelector(`.accordion-item:nth-child(${idx+1}) .show`) == null) {
+                if (document.querySelector(`.accordion-collapse:nth-child(${idx+1}) .show`) == null) {
                     document.querySelector(`#collapse${idx+1} .accordion-body`).innerHTML = ''
                 }
 
