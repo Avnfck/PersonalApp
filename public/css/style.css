@@ -44,6 +44,16 @@ main p {
     margin-right: 3vw;
     margin-left: 3vw;
     word-wrap: break-word;
+    justify-items: center;
+}
+
+.accordion {
+    width: 95%;
+    margin-left: 2.5%;
+}
+.accordion-item {
+    color: var(--bottom-color);
+    margin-bottom: 0.5%;
 }
 
 footer {
